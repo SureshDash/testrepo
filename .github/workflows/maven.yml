@@ -20,7 +20,9 @@ jobs:
         distribution: 'adopt'
         cache: maven
     - name: Build with Maven
+    - name: Compile
+      run: mvn clean install
+    - name: Create artifact files
       run: |
-         mvn clean install
          mkdir artifacts && cp target/*.jar artifacts
-cd artifacts && ls
+         cd artifacts && ls
