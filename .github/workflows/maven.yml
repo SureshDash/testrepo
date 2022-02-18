@@ -28,5 +28,5 @@ jobs:
     - name: Save Artifcats
       uses: actions/upload-artifact@v2
       with:
-	name: github-action-artifact
+	
         path: artifacts
