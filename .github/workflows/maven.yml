@@ -35,43 +35,7 @@ jobs:
       with:       
        host: 10.0.5.133        
        username: adminadmin      
-       key: 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
+       password: develop@1234
        port: 22
        source: "/home/runner/work/testrepo/testrepo/artifacts/dt-service-employee-1.0-SNAPSHOT.jar"      
        target: "~/"
