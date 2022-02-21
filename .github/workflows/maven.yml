@@ -37,5 +37,5 @@ jobs:
        username: adminadmin      
        key: develop@1234
        port: 22
-       source: "my-app.jar"      
+       source: "/home/runner/work/testrepo/testrepo/artifacts/dt-service-employee-1.0-SNAPSHOT.jar"      
        target: "~/"
