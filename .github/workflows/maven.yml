@@ -31,7 +31,7 @@ jobs:
         name: github-action-artifact
         path: artifacts
     - name: Upload application
-      uses: appleboy/scp-action@main
+      uses: appleboy/scp-action@master
       with:       
        host: 10.0.5.133        
        username: adminadmin      
