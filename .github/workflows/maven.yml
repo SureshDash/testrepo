@@ -30,16 +30,6 @@ jobs:
       with:
         name: github-action-artifact
         path: artifacts
-    - uses: actions/checkout@master
-    - name: copy file via ssh password
-      uses: appleboy/scp-action@master
-      with:
-        host: 10.0.5.133        
-        username: adminadmin      
-        password: develop@1234
-        port: 22
-        source: "."      
-        target: "~/"
     - name: Upload application
       uses: appleboy/scp-action@master
       with:       
