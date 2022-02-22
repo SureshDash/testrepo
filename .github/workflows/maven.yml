@@ -37,5 +37,5 @@ jobs:
        username: adminadmin      
        password: develop@1234
        port: 22
-       source: "/home/runner/work/testrepo/testrepo/artifacts/*.jar"      
+       source: "."      
        target: "~/"
